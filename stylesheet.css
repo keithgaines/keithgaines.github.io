@@ -1,0 +1,13 @@
+body {
+    background-color: #D8E9A8;
+    color: #191A19;
+}
+
+a {
+    color: #1E5128;
+}
+
+p, div {
+    display: inline-block;
+    text-align: center;
+}
