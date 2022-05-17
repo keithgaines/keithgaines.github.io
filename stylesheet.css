@@ -9,27 +9,144 @@ a {
 
 .workexperience {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 15px;
     grid-auto-rows: minmax(auto, auto);
 }
 
-.companyname {
+.lpname {
     grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row: 1;
+    font-weight: bold;
 }
 
-.dates {
+.lpdates {
     grid-column: 1/3;
     grid-row: 2;
 }
 
-.position {
+.lpposition {
     grid-column: 2/3;
     grid-row: 1;
 }
 
-.jobduties {
+.lpjobduties {
     grid-column: 2/3;
     grid-row: 2;
+}
+
+.aheadname {
+    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 3;
+    font-weight: bold;
+}
+
+.aheaddates {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+.aheadposition {
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+.aheadjobduties {
+    grid-column: 2/3;
+    grid-row: 4;
+}
+
+.nttname {
+    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 5;
+    font-weight: bold;
+}
+
+.nttdates {
+    grid-column: 1/3;
+    grid-row: 6;
+}
+
+.nttposition {
+    grid-column: 2/3;
+    grid-row: 5;
+}
+
+.nttjobduties {
+    grid-column: 2/3;
+    grid-row: 6;
+}
+
+.tekname {
+    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 7;
+    font-weight: bold;
+}
+
+.tekdates {
+    grid-column: 1/3;
+    grid-row: 8;
+}
+
+.tekposition {
+    grid-column: 2/3;
+    grid-row: 7;
+}
+
+.tekjobduties {
+    grid-column: 2/3;
+    grid-row: 8;
+}
+
+.lfcname {
+    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 9;
+    font-weight: bold;
+}
+
+.lfcdates {
+    grid-column: 1/3;
+    grid-row: 10;
+}
+
+.lfcposition {
+    grid-column: 2/3;
+    grid-row: 9;
+}
+
+.lfcjobduties {
+    grid-column: 2/3;
+    grid-row: 10;
+}
+
+.ulname {
+    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 11;
+    font-weight: bold;
+}
+
+.uldates {
+    grid-column: 1/3;
+    grid-row: 12;
+}
+
+.ulposition {
+    grid-column: 2/3;
+    grid-row: 11;
+}
+
+.uljobduties {
+    grid-column: 2/3;
+    grid-row: 12;
 }
