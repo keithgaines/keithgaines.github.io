@@ -1,10 +1,20 @@
-body {
-    background-color: #191A19;
-    color: #4E9F3D;
-}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .navbar .active {
+    background-color: #4CAF50;
+    color: white;
+ }
+
+.navbar li {
+    display: inline;
+ }
 
 a {
-    color: #D8E9A8;
+    color: #E83A14;
 }
 
 .workexperience {
@@ -150,3 +160,4 @@ a {
     grid-column: 2/3;
     grid-row: 12;
 }
+
