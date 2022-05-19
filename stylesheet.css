@@ -1,13 +1,29 @@
+.navbar {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    text-align: center;
+    font-size: x-large;
+}
+
+.navbar a {
+    color: black;
+}
+
+body {
+    background-color: #FFD369;
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
  }
- 
 
 .navbar li {
     display: inline;
- }
+}
 
 .workexperience {
     display: grid;
