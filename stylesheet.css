@@ -3,18 +3,23 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #EEEEEE;
+    background-color: #1E5128;
     text-align: center;
     font-size: x-large;
 }
 
 .navbar a {
-    color: black;
+    color: #4E9F3D;
+}
+
+.navbar a:hover {
+    color: #;
 }
 
 body {
-    background-color: #FFD369;
+    background-color: #D8E9A8;
 }
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
