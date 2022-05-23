@@ -12,8 +12,18 @@
     color: #4E9F3D;
 }
 
-.navbar a:hover {
-    color: #;
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+.wrapper {
+    display: grid;
+    border:1px solid #000;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    margin-bottom: 2em;
 }
 
 body {
