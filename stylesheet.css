@@ -3,13 +3,13 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #444444;
+    background-color: #045757;
     text-align: center;
     font-size: x-large;
 }
 
 .navbar a {
-    color: #DA0037;
+    color: black;
 }
 
 .box {
@@ -26,8 +26,8 @@
 }
 
 body {
-    background-color: #EDEDED;
-    color: #171717;
+    background-color: #222222;
+    color: #E4E4E4;
 }
 
 .navbar ul {
