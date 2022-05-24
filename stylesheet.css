@@ -1,11 +1,9 @@
 .navbar {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     background-color: #045757;
     text-align: center;
     font-size: x-large;
+    border-radius: 0;
+    
 }
 
 .navbar a {
@@ -26,6 +24,7 @@
 }
 
 body {
+    margin: 0;
     background-color: #222222;
     color: #E4E4E4;
 }
