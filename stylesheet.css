@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #045757;
+    background-color: #04879C;
     text-align: center;
     font-size: x-large;
     border-radius: 0;
@@ -8,6 +8,10 @@
 
 .navbar a {
     color: black;
+}
+
+div a {
+    color: #090030;
 }
 
 .box {
@@ -25,8 +29,8 @@
 
 body {
     margin: 0;
-    background-color: #222222;
-    color: #E4E4E4;
+    background-color: #0C3C78;
+    color: #F30A49;
 }
 
 .navbar ul {
