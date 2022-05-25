@@ -47,144 +47,157 @@ body {
     display: grid;
     gap: 15px;
     grid-auto-rows: minmax(auto, auto);
-    grid-template-columns: repeat(auto-fill, minmax(auto,1fr));
+    grid-template-columns: repeat(minmax(auto,1fr));
 }
 
 .lpname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 1;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .lpdates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 2;
+    overflow-wrap: break-word;
 }
 
 .lpposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 1;
 }
 
 .lpjobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 2;
+
 }
 
 .aheadname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 3;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .aheaddates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 4;
+    overflow-wrap: break-word;
 }
 
 .aheadposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 3;
 }
 
 .aheadjobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 4;
 }
 
 .nttname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 5;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .nttdates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 6;
+    overflow-wrap: break-word;
 }
 
 .nttposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 5;
 }
 
 .nttjobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 6;
 }
 
 .tekname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 7;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .tekdates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 8;
+    overflow-wrap: break-word;
 }
 
 .tekposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 7;
 }
 
 .tekjobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 8;
 }
 
 .lfcname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 9;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .lfcdates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 10;
+    overflow-wrap: break-word;
 }
 
 .lfcposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 9;
 }
 
 .lfcjobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 10;
 }
 
 .ulname {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 11;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .uldates {
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 12;
+    overflow-wrap: break-word;
 }
 
 .ulposition {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 11;
 }
 
 .uljobduties {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 12;
 }
 
