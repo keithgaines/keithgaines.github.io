@@ -10,6 +10,16 @@
     color: #212121;
 }
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+.navbar li {
+    display: inline;
+}
+
 div a {
     color: #323232;
 }
@@ -33,20 +43,11 @@ body {
     color: #212121;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
-
-.navbar li {
-    display: inline;
-}
-
 .workexperience {
     display: grid;
     gap: 15px;
     grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 }
 
 .lpname {
