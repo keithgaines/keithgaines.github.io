@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    background-color: #14FFEC;
+    color: #212121;
+}
+
+/* home page section */ 
 .navbar {
     background-color: #0D7377;
     text-align: center;
@@ -27,12 +34,7 @@ div a {
     color: #323232;
 }
 
-.box {
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  }
-
+/* portfolio section */ 
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -40,11 +42,12 @@ div a {
     margin-bottom: 2em;
 }
 
-body {
-    margin: 0;
-    background-color: #14FFEC;
-    color: #212121;
+.language {
+    text-align: center;
+
 }
+
+/* resume section */
 
 .workexperience {
     display: grid;
